@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+}
+p{
+    font-family: monospace;
+    font-size: x-large;
+    height: fit-content;
+    padding-left: 10%;
+
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 40% auto;
+    background-color: #ffffff;
+    padding-right: 2%;
+}
+img{
+    width: 50%;
+    padding: 20px;
+    padding-left: 8%;
+}
+#id2{
+    width: 95%;
+}
+#id1{
+    height: 80vh;
+}
+iframe{
+    padding-left: 30%;
+    width: 40%;
+
+}
