@@ -80,3 +80,20 @@ iframe{
     width: 100%;
     border: none;
 }
+
+@keyframes selected{
+    from{
+        font-size: large;
+        text-emphasis-color: black;
+    }
+    to{
+        font-size: larger;
+        text-emphasis-color: gray;
+    }
+}
+.menu-container div:hover span {
+    animation-name: selected;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#logo{height: 100%;}
