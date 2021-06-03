@@ -1,0 +1,7 @@
+#container div{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    padding-left: 5px;
+}
