@@ -97,3 +97,6 @@ iframe{
     animation-iteration-count: infinite;
 }
 #logo{height:100%;}
+@media only screen and (max-width: 576px) { 
+.header-content h2{display: none;}
+}
